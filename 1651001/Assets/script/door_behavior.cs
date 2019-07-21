@@ -14,6 +14,7 @@ public class door_behavior : MonoBehaviour
         {
             //SceneManager.LoadScene(index);
             SceneManager.LoadScene(levelName);
+            life_count.lifenum = 2;
         }
     }
 }

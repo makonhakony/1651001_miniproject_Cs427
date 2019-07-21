@@ -16,6 +16,10 @@ public class UI_start : MonoBehaviour
     {
         
     }
+    public void SetNextInstructionScene()
+    {
+        SceneManager.LoadScene("instruct");
+    }
 
     public void SetNextScene()
     {
